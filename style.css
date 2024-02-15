@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  width: 22rem;
+  padding: 20px;
+  text-align: center;
+}
+
+main p:nth-child(1) {
+  color: hsl(240, 38%, 20%);
+  font-weight: 300;
+  margin-top: 1rem;
+  font-size: 0.5rem;
+  padding: 0 1.5rem;
+  font-weight: 400;
+}
+
+.designation {
+  display: flex;
+  flex-direction: column;
+}
+
+.designation p:nth-child(1) {
+  font-size: 0.5rem;
+  color: hsl(240, 38%, 20%);
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.designation p:nth-child(2) {
+  color: hsl(240, 18%, 77%);
+  font-weight: 700;
+  font-size: 0.45rem;
+}
+
+.bg {
+  position: relative;
+  bottom: 30px;
+}
+
+.bg img:nth-child(1) {
+  width: 100%;
+}
+
+.bg img:nth-child(2) {
+  width: 2rem;
+  margin-top: 0.6rem;
+}
+
+.bg img:nth-child(3) {
+  width: 100%;
+  margin-top: 10rem;
+  position: absolute;
+  top: 230px;
+  right: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 200px;
+  left: 5px;
+}
+
+.card img {
+  border-radius: 5px;
+  margin-bottom: 1.4rem;
+  box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btn-container {
+  width: 2.5rem;
+  height: 1.3rem;
+  position: absolute;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 30px;
+  box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  bottom: 322px;
+  left: 150px;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  display: flex;
+  cursor: pointer;
+}
+
+.card-2 {
+    display: none;
+  }
+  
+
+@media screen and (min-width: 1440px) {
+  main p:nth-child(1) {
+    font-size: 1.1rem;
+    text-align: left;
+    z-index: 1;
+    position: relative;
+    left: 122px;
+    width: 22rem;
+    margin-bottom: 1rem;
+  }
+
+  .card {
+    flex-direction: row-reverse;
+    top: 189px;
+    right: 164px;
+  }
+
+  .image img {
+    width: 550px;
+  }
+
+  .bg img:nth-child(1) {
+    width: 100%;
+    position: absolute;
+    top: -255px;
+    right: -300px;
+  }
+
+  .bg img:nth-child(2) {
+    width: 2rem;
+    margin-top: 0.6rem;
+  }
+
+  .bg img:nth-child(3) {
+    right: 365px;
+    top: 20px;
+  }
+
+  .btn-container {
+    bottom: 140px;
+    left: 810px;
+    width: 3rem;
+    height: 1.5rem;
+  }
+
+  .designation p:nth-child(1), .designation p:nth-child(2){
+    font-size: 0.7rem;
+  }
+
+  .designation p:nth-child(2) {
+    margin-top: -0.9rem;
+  }
+
+  .card-2 .designation p:nth-child(2) {
+    margin-left: 4.5rem;
+  }
+
+  .card-2 {
+    display: none;
+  }
+
+}
