@@ -83,7 +83,7 @@ main p:nth-child(1) {
 .card img {
   border-radius: 5px;
   margin-bottom: 1.4rem;
-  box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 16px 40px 0px rgba(135, 105, 210, 0.4);
 }
 
 .btn-container {
@@ -122,6 +122,7 @@ button {
     position: relative;
     left: 122px;
     width: 22rem;
+    font-weight: 300;
   }
 
   .card {
