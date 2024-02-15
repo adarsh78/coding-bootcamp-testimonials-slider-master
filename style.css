@@ -126,7 +126,7 @@ button {
 
   .card {
     flex-direction: row-reverse;
-    top: 110px;
+    top: 151px;
     right: 162px;
   }
 
@@ -142,8 +142,10 @@ button {
   }
 
   .bg img:nth-child(2) {
-    width: 2rem;
-    margin-top: 0.6rem;
+    position: absolute;
+    left: -158px;
+    bottom: 0;
+    width: 4rem;
   }
 
   .bg img:nth-child(3) {
@@ -152,7 +154,7 @@ button {
   }
 
   .btn-container {
-    bottom: 118px;
+    bottom: 76px;
     left: 808px;
     width: 3rem;
     height: 1.5rem;
